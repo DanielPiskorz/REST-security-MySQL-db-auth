@@ -13,7 +13,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import pl.danielpiskorz.mysqlauth.repository.UserRepository;
 import pl.danielpiskorz.mysqlauth.service.CustomUserDetailsService;
 
-@EnableGlobalMethodSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 @EnableWebSecurity
 @EnableJpaRepositories(basePackageClasses = UserRepository.class)
 @Configuration
