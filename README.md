@@ -1,2 +1,2 @@
-# REST-security-MySQL-db-auth
-Spring Boot authentication &amp; authorisation, based on data stored in MySQL 
+## Spring Boot secured RESTful API.
+#### Contains authentication &amp; authorization based on user credentials stored in MySQL database.
